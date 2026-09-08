@@ -1,1 +1,1 @@
-Python - Classes & Object model
+Python - Classes & Object Model
