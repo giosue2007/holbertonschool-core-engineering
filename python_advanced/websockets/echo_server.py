@@ -12,8 +12,8 @@ async def echo(websocket, path=None):
 
 
 async def main():
-    """Start the server on localhost:8765 and keep it running forever."""
-    async with websockets.serve(echo, "localhost", 8765):
+    """Start the server on 127.0.0.1:8765 and keep it running forever."""
+    async with websockets.serve(echo, "127.0.0.1", 8765):
         await asyncio.Future()
 
 
