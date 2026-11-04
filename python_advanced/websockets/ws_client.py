@@ -13,7 +13,7 @@ MESSAGE = "Hello WebSocket"
 async def connect_and_send(uri: str, text: str) -> str:
     """
     Connect to uri, send text once, receive one reply,
-    close the connection and return the reply as a str.
+    close the connection and return the reply as a str. 
     """
     async with websockets.connect(uri) as websocket:
         await websocket.send(text)
