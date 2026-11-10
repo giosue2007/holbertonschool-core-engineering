@@ -25,7 +25,8 @@ async def connection_handler(websocket):
         connected_clients.discard(websocket)
 
 
-async def main():
+async def main():cd ~/holbertonschool-core-engineering/python_advanced/websockets
+python3 -m http.server 5500
     """
     Start the server on localhost:8765 and keep it running.
     """
